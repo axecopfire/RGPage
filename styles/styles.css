@@ -71,3 +71,8 @@ html {
     0%{opacity: 0;}
     100%{opacity: 1;}
 }
+.shoe-prof {
+    height: 200px;
+    width: 140px;
+    transform: rotate(270deg);
+}

@@ -4,10 +4,10 @@
 ul {
     list-style: none;
 }
-/*html {
+html {
     min-height: 100%;
     position: relative;
-  }*/
+  }
 .nvbar-brand>img {
     max-height: 50px;
     max-width: 50px;
@@ -50,6 +50,7 @@ ul {
     padding: 10px 30px 10px 10px;
 }
 
+/*// Keyframes //*/
 @keyframes slide-in{
     0%{transform: translateX(-800px);}
     100%{transform: translateX(0px);}

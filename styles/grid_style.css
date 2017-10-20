@@ -1,0 +1,34 @@
+/*#intro-text, #intro-image, .upfront, .linklist, .upfront-sub, .foot {
+    border: solid 5px;
+
+}
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.intro > div > img {
+    height: 150px;
+    width: 150px;
+}
+
+.hero-container {
+    display: block;
+    grid-template-columns: 1fr 2fr;
+}
+.linklist {
+    grid-row-start: 2;
+}
+ul {
+    list-style-type: none;
+}
+*/
+.herro-header {
+    height: 197px;
+}
+.navbar-brand > img {
+    height: 100px;
+    width: 100px;
+}
+.navbar-nav {
+    vertical-align: bottom;
+}

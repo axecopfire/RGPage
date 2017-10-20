@@ -1,0 +1,56 @@
+#intro {
+    font-family: 'Noticia Text', serif;
+}
+ul {
+    list-style: none;
+}
+.nvbar-brand>img {
+    max-height: 50px;
+    max-width: 50px;
+}
+.nvhead {
+    padding: 10px;
+}
+.nvbrlinks {
+    text-align: bottom;
+    position: relative;
+    margin: auto;
+}
+.jim-cont>h1 {
+    font-family: 'Noticia Text', serif;
+}
+.jimbotron {
+    background-color: rgba(105, 105, 105, .8);
+    border-radius: 10px;
+    color: white;
+    max-width: 650px;
+    animation: fade-in  3s ease forwards;
+}
+#upfront-sub {
+    background-image: url("../images/collab.png");
+    background-size: cover;
+    height: 60vh;
+    animation: slide-in 1s ease forwards;
+    
+}
+.cont-fluid {
+    margin-left: auto;
+    margin-right: auto;
+}
+.jim-cont {
+    color: white;
+    max-width: 650px;
+    padding: 5px 10px 10px 20px;
+}
+.sub-cont {
+    padding: 10px 30px 10px 10px;
+}
+
+@keyframes slide-in{
+    0%{transform: translateX(-800px);}
+    100%{transform: translateX(0px);}
+}
+@keyframes fade-in{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}

@@ -1,4 +1,4 @@
-    document.getElementById("navHome").innerHTML = `<nav class="navbar-default">
+document.getElementById("navHome").innerHTML = `<nav class="navbar-default">
     <div class="navbar-header nvhead">
         <button type="button" class="navbar-toggle" data-toggle="collapse" target="#mynavbar">
             <span class="icon-bar"></span>
@@ -20,4 +20,3 @@
         </ul>
     </div>
 </nav>`;
-

@@ -36,7 +36,6 @@ html {
 #upfront-sub {
     background-image: url("../images/collab.png");
     background-size: cover;
-    height: 300px;
     animation: slide-in 1s ease forwards;
     
 }
